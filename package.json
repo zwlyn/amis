@@ -27,11 +27,6 @@
     "stylelint": "npx stylelint 'packages/**/*.scss'",
     "typecheck": "tsc --noEmit"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
   "lint-staged": {
     "{packages,examples}/**/{src,examples}/**/**/*.{tsx,jsx,ts}": [
       "prettier --write"
