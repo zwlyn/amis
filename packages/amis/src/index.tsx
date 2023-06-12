@@ -11,6 +11,9 @@ export * from 'amis-ui';
 import './preset';
 
 // 注册渲染器
+import './renderers/Custom/antd-table';
+import './renderers/Custom/antd-datepicker';
+import './renderers/Custom/antd-button';
 import './renderers/Custom/antdRender';
 import './renderers/Action';
 import './renderers/Alert';
